@@ -3,68 +3,88 @@
 }
 
 body {
-  background-color: #131720;
-  font-family: sans-serif;
+  background: linear-gradient(to bottom, #131720, #1a1f29);
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 h3 {
-  color: white;
+  color: #ffffff;
 }
 
+/* Navigation Bar */
 .topnav {
   overflow: hidden;
-  background-color: #131720;
+  background: linear-gradient(to bottom, #131720, #1a1f29);
   padding: 10px;
 }
 
-.topnav a{
+.topnav a {
   float: left;
   display: block;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
-.topnav .search-container{
+.topnav a:hover {
+  background-color: #1e2430;
+}
+
+.topnav .search-container {
   float: right;
 }
 
-form{
-  background-color: #151f30;
+/* Search Form */
+form {
+  background-color: #1e2430;
   width: 300px;
   height: 43px;
   border-radius: 11px;
   display: flex;
-  alight-items: center;
+  align-items: center;
 }
 
 input {
-  all: unset;
-  font: 15px system-ui;
-  color: #fff;
+  border: none;
+  font: 15px Arial, sans-serif;
+  color: #ffffff;
   height: 100%;
   width: 100%;
   padding: 6px 9px;
+  background: transparent;
 }
 
+/* Image Thumbnails */
 .thumbnail {
   height: 350px;
   width: 300px;
   border-radius: 19px;
+  object-fit: cover;
 }
 
+/* Grid Layout */
 .column {
   float: left;
   width: 25%;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
-.card{
+/* Cards */
+.card {
   border-radius: 19px;
   padding: 15px;
   text-align: center;
-  background-color: #151f30;
+  background: linear-gradient(to bottom, #1e2430, #232b3a);
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
