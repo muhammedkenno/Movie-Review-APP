@@ -12,7 +12,7 @@ h3 {
   color: #ffffff;
 }
 
-/* Navigation Bar */
+/* Navigation Bar*/
 .topnav {
   overflow: hidden;
   background: linear-gradient(to bottom, #131720, #1a1f29);
@@ -24,10 +24,8 @@ h3 {
   display: block;
   color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 23px 80px;
   text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
   transition: 0.3s;
 }
 
@@ -87,4 +85,14 @@ input {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a.active{
+  background-image: url("kno.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  border-radius: 80px;
+  /* padding: 1px , 95px; */
 }
