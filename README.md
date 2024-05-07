@@ -1,4 +1,4 @@
-<p align="center"><b>Movie reviewing App ﷽</b></p>
+<p align="center"><h1>Movie reviewing App ﷽</h1></p>
 
 I built this app using a variety of tools:
 Frontend:
