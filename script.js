@@ -35,8 +35,9 @@ function returnMovies(url){
         const center = document.createElement('center');
 
         // Setting content and attributes
-        title.innerHTML = `${element.title}`;
+        title.innerHTML = `${element.title}<br><a href="movie.html?id=${element.id}&title=${element.title}">reviews</a>`;
         image.src = IMG_PATH + element.poster_path;
+
 
         // Appending elements to create card layout
         center.appendChild(image);

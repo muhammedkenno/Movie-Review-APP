@@ -5,11 +5,8 @@
 body {
   background: linear-gradient(to bottom, #131720, #1a1f29);
   font-family: Arial, sans-serif;
+  color: #fff;
   margin: 0;
-}
-
-h3 {
-  color: #ffffff;
 }
 
 /* Navigation Bar*/
@@ -48,9 +45,8 @@ form {
 }
 
 input {
-  border: none;
   font: 15px Arial, sans-serif;
-  color: #ffffff;
+  color:#706b6b;
   height: 100%;
   width: 100%;
   padding: 6px 9px;
@@ -94,5 +90,27 @@ a.active{
   background-position: center;
   display: block;
   border-radius: 80px;
-  /* padding: 1px , 95px; */
+}
+/* Style for the title */
+#title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for the link */
+#title a {
+  color: #82bbf7; /* Blue color for the link */
+  text-decoration: none; /* Remove underline */
+}
+
+#title a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for the image */
+#image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
 }
