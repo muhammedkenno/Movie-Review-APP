@@ -1,4 +1,4 @@
-###Movie reviewing App 
+<p align="center">Movie reviewing App </p>
 
 I built this app using a variety of tools:
 Frontend:
